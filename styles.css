@@ -181,11 +181,11 @@ tbody td {
 
 .card > h1 {
   font-size: 24px;
-  border-bottom: 1px solid #ffffff6f;
+  border-collapse: collapse;
 }
 
 .card > p {
-  margin-top: 3px;
+  border-top: 1px solid #ffffff6f;
   font-size: 18px;
   line-height: normal;
 }
@@ -212,6 +212,7 @@ tbody td {
 
 .card > img {
   width: 100%;
+  height: 50%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -223,3 +224,27 @@ tbody td {
 .card-f-1 > button:hover, .card-f-2 > button:hover {
   background-color: orange;
 }
+
+.contato {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font: 400 20px/150% 'Roboto', sans-serif;
+  margin-bottom: 100px;
+}
+
+.img-3 {
+  width: 25px;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+.whats {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
